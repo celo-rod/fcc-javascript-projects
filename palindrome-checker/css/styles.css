@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Verdana', sans-serif;
+  color: #efeeea;
+  background-color: #30313c;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#title {
+  text-align: center;
+  font-size: 3.6rem;
+}
+
+#palindrome-checker-div,
+#palindrome-definition-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: min(100vw, 450px);
+  min-height: fit-content;
+  margin-top: 4rem;
+  padding: 4rem;
+}
+
+#palindrome-checker-div {
+  color: #30313c;
+  background-color: #dddbd5;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px #6d4932;
+}
+
+#palindrome-checker-div label {
+  margin-bottom: 2rem;
+}
+
+#text-input {
+  width: 250px;
+  margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #30313c;
+  background-color: #dddbd5;
+  border: none;
+  border-bottom: 3px solid #6d4932;
+}
+
+#check-button {
+  width: 90px;
+  padding: 1rem 2.5rem;
+  color: #efeeea;
+  background-color: #6d4932;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#palindrome-definition-div {
+  color: #30313c;
+  background-color: #e9c181;
+  border-radius: 20px;
+}
+
+#palindrome-definition-title {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+#palindrome-definition {
+  text-align: center;
+}
