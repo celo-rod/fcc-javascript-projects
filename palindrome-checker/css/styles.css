@@ -61,7 +61,7 @@ body {
   border-bottom: 3px solid #6d4932;
 }
 
-#check-button {
+#check-btn {
   width: 90px;
   padding: 1rem 2.5rem;
   color: #efeeea;
@@ -69,6 +69,16 @@ body {
   border: none;
   border-radius: 15px;
   cursor: pointer;
+}
+
+#result {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 #palindrome-definition-div {
